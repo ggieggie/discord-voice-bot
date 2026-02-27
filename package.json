@@ -1,0 +1,20 @@
+{
+  "name": "discord-voice-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "openai": "^6.21.0",
+    "opusscript": "^0.0.8",
+    "sodium-native": "^5.0.10",
+    "ws": "^8.19.0"
+  }
+}
